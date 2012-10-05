@@ -15,3 +15,5 @@ if userChoice == computerChoice:
     print('It is a tie!')
     if userChoice = 'rock' and computerChoice = 'paper':
         print('The computer has won!')
+    if userChoice = 'scissors' and computerChoice = 'paper':
+        print('You have won!')
