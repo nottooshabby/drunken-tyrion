@@ -4,10 +4,13 @@
 #and I could set a limit, or infinate, based on user input. I also need to return a wrong entry with 'Please re-enter 
 #your choice!'
 
-import random
+import random import re
 __author__ = 'jonathonfuller'
-beginGame = str(input('Do you want to play rock, paper, scissors?'))
-if beginGame.isletter == 'yes', 'Yes', 'YES':
+beginGame = input('Do you want to play rock, paper, scissors?')
+if not re.match("[a-z]"):
+   print
+
+if beginGame == 'yes', 'Yes', 'YES':
    game(input('Do you choose rock, paper, or scissors?'))
 def game(userChoice):
 computerChoice = random.random()
