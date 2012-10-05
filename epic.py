@@ -1,7 +1,8 @@
 #My first game of rock, paper and scissors!
 #Made by Jonathon Fuller
 #If I could set this as a function, I could set the variables within the function as userChoice and computerChoice
-#and I could set a limit, or infinate, based on user input. I also need to return a wrong entry with 'Please re-enter your #choice!'
+#and I could set a limit, or infinate, based on user input. I also need to return a wrong entry with 'Please re-enter 
+#your choice!'
 
 import random
 __author__ = 'jonathonfuller'
