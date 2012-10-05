@@ -13,4 +13,5 @@ else:
     computerChoice = 'paper'
 if userChoice == computerChoice:
     print('It is a tie!')
-print(computerChoice)
+    if userChoice = 'rock' and computerChoice = 'paper':
+        print('The computer has won!')
