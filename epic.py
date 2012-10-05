@@ -6,9 +6,10 @@
 
 import random
 __author__ = 'jonathonfuller'
-print ('Hello world!')
-userChoice = input('What do you choose? Rock, paper, or scissors?')
-userChoice = str(userChoice)
+beginGame = str(input('Do you want to play rock, paper, scissors?'))
+if beginGame == 'yes', 'Yes', 'YES':
+   game(input('Do you choose rock, paper, or scissors?'))
+def game(userChoice):
 computerChoice = random.random()
 if computerChoice < .34:
     computerChoice =  'rock'
