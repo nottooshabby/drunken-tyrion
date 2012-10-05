@@ -7,7 +7,7 @@
 import random
 __author__ = 'jonathonfuller'
 beginGame = str(input('Do you want to play rock, paper, scissors?'))
-if beginGame == 'yes', 'Yes', 'YES':
+if beginGame.isletter == 'yes', 'Yes', 'YES':
    game(input('Do you choose rock, paper, or scissors?'))
 def game(userChoice):
 computerChoice = random.random()
@@ -17,7 +17,7 @@ elif computerChoice >=.34 and computerChoice < .64:
     computerChoice =  'scissors'
 else:
     computerChoice = 'paper'
-print('The computer has chosen: ' + computerChoice)
+print('The computer has chosen: ', computerChoice)
 if userChoice == computerChoice:
     print('It is a tie!')
     return tieRound
