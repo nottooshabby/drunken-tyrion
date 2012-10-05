@@ -4,6 +4,7 @@
 #and I could set a limit, or infinate, based on user input. I also need to return a wrong entry with 'Please re-enter 
 #your choice!'
 
+<<<<<<< HEAD
 import random import re
 __author__ = 'jonathonfuller'
 beginGame = input('Do you want to play rock, paper, scissors?')
@@ -42,3 +43,32 @@ if userChoice = 'scissors':
 return secondRound
 
     
+=======
+import random
+import re
+__author__ = 'jonathonfuller'
+beginGame = input('Do you want to play rock, paper, scissors?')
+# if beginGame is not re.match('a-z'):
+    # print('Only use letters please!')
+
+if beginGame == 'yes' or 'Yes' or 'YES':
+    def gameOne(userChoice):
+        computerChoice = random.random()
+        if computerChoice < .34:
+            computerChoice =  'rock'
+        elif computerChoice >=.34 and computerChoice < .64:
+            computerChoice =  'scissors'
+        else:
+            computerChoice = 'paper'
+        if userChoice == computerChoice:
+            print('It is a tie!')
+        if userChoice == 'scissors':
+            if computerChoice == 'rock':
+                print('The computer has won!')
+            else:
+                print('You have won!')
+    gameOne(input('Do you choose rock, paper, or scissors?'))
+
+
+secondRound = gameOne(input(beginGame))
+>>>>>>> Ironing it out.
