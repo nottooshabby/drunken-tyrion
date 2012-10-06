@@ -1,0 +1,25 @@
+import random
+import re
+import sys
+
+print('Welcome to my suit-less texas holdem game!')
+
+class beginGame:
+    beginInput = input("Do you want to play Texas Hold\'em?")
+    if beginInput == 'yes' or 'Yes' or 'YES':
+        global amtChips
+        amtChips = input('How many chips do you want to use? You and the computer will have the same amount of chips.')
+        game
+    else:
+        print('Okay! Goodbye!')
+
+class cardMath:
+    blah = random.random()
+    numChoice = blah
+    if numChoice <= 0.01923076923:
+        randCard = ace
+    if numChoice <= 0.01923076923*2:
+        randCard = king
+    if numChoice <
+class game:
+    print('cool')

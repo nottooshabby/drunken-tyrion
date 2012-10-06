@@ -5,7 +5,7 @@
 #your choice!'
 
 import random
-import re
+
 __author__ = 'jonathonfuller'
 beginGame = input('Do you want to play rock, paper, scissors?')
 # if beginGame is not re.match('a-z'):
@@ -36,7 +36,7 @@ def gameOne(userChoice):
             print('You have won!')
         else:
             print('The computer has won!')
-if beginGame == 'yes' or 'Yes' or 'YES':
+if not beginGame != 'yes' or 'Yes' or 'YES':
     gameOne(input('Do you choose rock, paper, or scissors?'))
 else:
     print('Okay! Goodbye!')
