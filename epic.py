@@ -4,46 +4,6 @@
 #and I could set a limit, or infinate, based on user input. I also need to return a wrong entry with 'Please re-enter 
 #your choice!'
 
-<<<<<<< HEAD
-import random import re
-__author__ = 'jonathonfuller'
-beginGame = input('Do you want to play rock, paper, scissors?')
-if not re.match("[a-z]"):
-   print
-
-if beginGame == 'yes', 'Yes', 'YES':
-   game(input('Do you choose rock, paper, or scissors?'))
-def game(userChoice):
-computerChoice = random.random()
-if computerChoice < .34:
-    computerChoice =  'rock'
-elif computerChoice >=.34 and computerChoice < .64:
-    computerChoice =  'scissors'
-else:
-    computerChoice = 'paper'
-print('The computer has chosen: ', computerChoice)
-if userChoice == computerChoice:
-    print('It is a tie!')
-    return tieRound
-if userChoice = 'rock':
-    if computerChoice = 'scissors':
-         print('You win!')
-    else:
-         print('The computer has won!)
-if userChoice = 'paper':
-   if computerChoice = 'rock':
-      print('You win!')
-   else:
-      print('The computer has won!')
-if userChoice = 'scissors':
-   if computerChoice = 'rock':
-      print('The computer has won!')
-   else:
-      print ('You win!')
-return secondRound
-
-    
-=======
 import random
 import re
 __author__ = 'jonathonfuller'
@@ -51,24 +11,32 @@ beginGame = input('Do you want to play rock, paper, scissors?')
 # if beginGame is not re.match('a-z'):
     # print('Only use letters please!')
 
-if beginGame == 'yes' or 'Yes' or 'YES':
-    def gameOne(userChoice):
-        computerChoice = random.random()
-        if computerChoice < .34:
-            computerChoice =  'rock'
-        elif computerChoice >=.34 and computerChoice < .64:
-            computerChoice =  'scissors'
+def gameOne(userChoice):
+    computerChoice = random.random()
+    if computerChoice < .34:
+        computerChoice =  'rock'
+    elif computerChoice >=.34 and computerChoice < .64:
+        computerChoice =  'scissors'
+    else:
+        computerChoice = 'paper'
+    if userChoice == computerChoice:
+        return print('It is a tie!')
+    if userChoice == 'scissors':
+        if computerChoice == 'rock':
+            print('The computer has won!')
         else:
-            computerChoice = 'paper'
-        if userChoice == computerChoice:
-            print('It is a tie!')
-        if userChoice == 'scissors':
-            if computerChoice == 'rock':
-                print('The computer has won!')
-            else:
-                print('You have won!')
+            print('You have won!')
+    if userChoice == 'paper':
+        if computerChoice == 'rock':
+            print('You have won!')
+        else:
+            print('The computer has won!')
+    if userChoice == 'rock':
+        if computerChoice == 'scissors':
+            print('You have won!')
+        else:
+            print('The computer has won!')
+if beginGame == 'yes' or 'Yes' or 'YES':
     gameOne(input('Do you choose rock, paper, or scissors?'))
-
-
-secondRound = gameOne(input(beginGame))
->>>>>>> Ironing it out.
+else:
+    print('Okay! Goodbye!')

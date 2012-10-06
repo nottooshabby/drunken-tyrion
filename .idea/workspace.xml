@@ -29,7 +29,7 @@
       <file leaf-file-name="epic.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/epic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="61" selection-start="1168" selection-end="1168" vertical-scroll-proportion="0.7645631">
+            <state line="39" column="25" selection-start="1400" selection-end="1400" vertical-scroll-proportion="0.7815534">
               <folding>
                 <element signature="e#319#332#0" expanded="true" />
               </folding>
@@ -55,7 +55,6 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2" />
     <option name="y" value="22" />
     <option name="width" value="1280" />
     <option name="height" value="774" />
@@ -235,14 +234,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="22" width="1280" height="774" extended-state="0" />
+    <frame x="0" y="22" width="1280" height="774" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15559158" sideWeight="0.6722818" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16045381" sideWeight="0.6722818" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -313,6 +312,24 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/epic.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="0" selection-start="2215" selection-end="2215" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#319#332#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/epic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="61" selection-start="1168" selection-end="1168" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#319#332#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/epic.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="20" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#319#332#0" expanded="true" />
@@ -359,7 +376,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/epic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="61" selection-start="1168" selection-end="1168" vertical-scroll-proportion="0.7645631">
+        <state line="39" column="25" selection-start="1400" selection-end="1400" vertical-scroll-proportion="0.7815534">
           <folding>
             <element signature="e#319#332#0" expanded="true" />
           </folding>
