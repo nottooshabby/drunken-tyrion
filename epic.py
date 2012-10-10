@@ -4,10 +4,13 @@
 #and I could set a limit, or infinate, based on user input. I also need to return a wrong entry with 'Please re-enter 
 #your choice!'
 
+import sys
 import random
+from tkinter import *
 
 __author__ = 'jonathonfuller'
 beginGame = input('Do you want to play rock, paper, scissors?')
+str(beginGame)
 # if beginGame is not re.match('a-z'):
     # print('Only use letters please!')
 
@@ -36,7 +39,9 @@ def gameOne(userChoice):
             print('You have won!')
         else:
             print('The computer has won!')
-if not beginGame != 'yes' or 'Yes' or 'YES':
-    gameOne(input('Do you choose rock, paper, or scissors?'))
+    print('The computer chose ' + computerChoice)
+
+while beginGame == 'yes':
+    gameOne = (Entry('Do you choose rock, paper, or scissors?'))
 else:
     print('Okay! Goodbye!')
